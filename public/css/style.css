@@ -1,0 +1,70 @@
+/* how to style your header when using header.hbs?? */
+
+body {
+  color: black;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto; /* auto : evenly distributing */
+  padding: 0 16px;
+}
+
+footer {
+  color: #aaaaaa;
+  position: absolute;
+  bottom: 0%;
+  border-top: 1px solid #dddddd;
+  /*padding: 16px;*/
+  margin-top: 16px 0;
+}
+
+header {
+  /* background-color: aqua; */
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+/* Target a inside the header only */
+header a {
+  color: #aaaaaa;
+  margin-right: 16px;
+  text-decoration: none; /* remove the default link's underline */
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+img {
+  width: 800px;
+  height: 600px;
+  margin: 16px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+option {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px;
+}
+
+canvas {
+  background-color: #cccccc;
+  margin-bottom: 16px;
+}
+
+#leaflet-map {
+  height: 300px;
+  margin-bottom: 16px;
+}

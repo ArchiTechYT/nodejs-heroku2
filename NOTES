@@ -1,0 +1,5 @@
+run /src/index.js
+
+go to the correct folder, and open terminal, type
+
+"node index.js"
