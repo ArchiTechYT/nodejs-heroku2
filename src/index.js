@@ -11,13 +11,14 @@ const port = process.env.PORT || 3000; // heroku env value or 3000 on localhost
 
 // Define routes
 app.get("/", (req, res) => {
-  res.send("This is Static version : Hello, World!");
+  // res.send("This is Static version : Hello, World!");
+  res.send('<html><body><h2>Your AI interior result</h2><a href="/image"><button>Get Result</button></a></body></html>');
 });
 
 app.get("/image", (req, res) => {
   // Serve an image file (assuming it's in the same directory)
   res.sendFile(__dirname + '/image.png');
-});
+  });
 
 
 
